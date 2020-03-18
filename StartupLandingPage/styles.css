@@ -1,0 +1,56 @@
+html,body{
+	height: 100%;
+}
+
+#content{
+	color: #d3d4d8;
+	text-align: center;
+	padding-top: 18%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+body{
+	font-family: Lato;
+	background-image: url("https://images.unsplash.com/photo-1509785307050-d4066910ec1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1856&q=80");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+} 
+
+h1{
+	font-size: 5em;
+	font-weight: 700;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(209, 157, 108, 0), rgba(209, 157, 108, 0.75), rgba(209, 157, 108, 0));
+}
+
+.navbar-default{
+	background-color: #d3d4d8;
+	border-color: #d3d4d8;
+	border-radius: 0px;
+}
+
+a, .navbar-default .navbar-nav>li>a{
+	color: #280f0b;
+}
+
+.navbar-default .navbar-toggle {
+	border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color :#280f0b;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #d3d4d8;
+    background-color: #280f0b;
+}
